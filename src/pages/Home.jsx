@@ -5,7 +5,9 @@ import hero_img from "../img/gemenini_hero.png";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import s3img from "../img/Screenshot 2025-11-06 at 9.26.50 PM.png";
-import Anim from './Anim.jsx'
+import Anim from '../components/Anim.jsx'
+import s4img from '../img/section4.png'
+import ftr from '../img/footer.png'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -194,6 +196,12 @@ tl.to({}, { duration: 0.25 });
 
 
      <Anim/>
+
+     <section className="s4">
+        <img className="s3img" src={s4img} alt="s4img"/>
+      </section>
+
+      
 
 
       </>
