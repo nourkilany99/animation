@@ -5,12 +5,26 @@ import hero_img from "../img/gemenini_hero.png";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import s3img from "../img/Screenshot 2025-11-06 at 9.26.50 PM.png";
+import Anim from './Anim.jsx'
 
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.registerPlugin(ScrollTrigger);
 
 const  Home= () => {
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 console.clear();
 
@@ -174,25 +188,12 @@ tl.to({}, { duration: 0.25 });
 
 
 
-      <section className='s1_Home'>
-      <Nav/>
-
-      <div className='div_hero'>
-        <img className='heroimg' src={hero_img} alt='hero_img'/>
-
-        <div className='div_cntnt_hero'>
-        <h1>Measure Twice,<br/>Cut once</h1>
-        </div>
-      </div>
-
-      </section>
-
       <section className="s3">
-        <img src={s3img} alt="s3img"/>
+        <img className="s3img" src={s3img} alt="s3img"/>
       </section>
 
 
-
+     <Anim/>
 
 
       </>
