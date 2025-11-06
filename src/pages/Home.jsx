@@ -5,9 +5,11 @@ import hero_img from "../img/gemenini_hero.png";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import s3img from "../img/Screenshot 2025-11-06 at 9.26.50 PM.png";
-import Anim from '../components/Anim.jsx'
-import s4img from '../img/section4.png'
-import ftr from '../img/footer.png'
+import Anim from '../components/Anim.jsx';
+import s4img from '../img/section4.png';
+import ftr from '../img/footer.png';
+import {Link}  from "react-router-dom";
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -119,14 +121,14 @@ tl.to({}, { duration: 0.25 });
         <div className="content">
           <div className="horizontal center">
             <div className="cards-container">
-              <div className="card center gradient-green scr1" >
+              <link to="/Details"><div className="card center gradient-green scr1" >
 
                 {/* <div className="div_hid">
                   <img className="logo_cs" src={Case_img} alt="case_img" />
                   <p className="cs_h">Case study</p>
                 </div> */}
 
-              </div>
+              </div></link>
 
               <div className="card center gradient-green scr2" >
                   {/* <div className="div_hid">
@@ -201,7 +203,9 @@ tl.to({}, { duration: 0.25 });
         <img className="s3img" src={s4img} alt="s4img"/>
       </section>
 
-      
+      <footer className="s4">
+        <img className="s3img" src={ftr} alt="s4img"/>
+      </footer>
 
 
       </>
