@@ -1,6 +1,7 @@
 import React from 'react';
 import './Detail.css';
 import Nav from '../components/Nav.jsx';
+import TacoParty from "../components/TacoParty";
 
 
 const Detail = () => {
@@ -23,6 +24,8 @@ const Detail = () => {
             <p className='cntnall1'>How We Did<br/>Our brand strategy and identity system, paired with their incredibly delicious tacos, made Taco Party one of the most successful restaurants in Grand Junction. Taco Party grew their footprint 3x since the brand launch. Today, they’re in talks to expand into new markets, and continue their plot for world taco domination.</p>
         </div>
 
+
+         <TacoParty />
     </div>
      </>);
 }
