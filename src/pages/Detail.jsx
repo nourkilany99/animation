@@ -2,6 +2,7 @@ import React from 'react';
 import './Detail.css';
 import Nav from '../components/Nav.jsx';
 import TacoParty from "../components/TacoParty";
+import myVideo from '../video/TP-Icons-opt.mp4';
 
 
 const Detail = () => {
@@ -26,6 +27,20 @@ const Detail = () => {
 
 
          <TacoParty />
+
+
+         <div className='s4_p2'>
+            <p>Brand Identity</p>
+            <p className='h'>The best parties are the ones where you have no idea what will happen next. So we created a brand that did just that. We took inspiration from the DADA movement to develop a dynamic visual identity system that was reinforced with irreverent illustrations and an expressive design language. Needless to say we got weird with it, which got customers to drop their jaws, and then we filled them with tacos.</p>
+         </div>
+
+
+        <video width="800" autoPlay loop muted className='video'>
+            <source src={myVideo} type="video/mp4" />
+        </video>
+
+
+
     </div>
      </>);
 }

@@ -58,3 +58,22 @@ font-weight: bold;
     padding-top: 6%;
     font-weight: 100;
 }
+
+.s4_p2{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 20% 0;
+    line-height: 140%;
+}
+
+.h{
+    width: 80%;
+}
+
+.video{
+    width: 100%;
+    display: flex;
+}
