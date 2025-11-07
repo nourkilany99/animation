@@ -3,6 +3,7 @@ import './Detail.css';
 import Nav from '../components/Nav.jsx';
 import TacoParty from "../components/TacoParty";
 import myVideo from '../video/TP-Icons-opt.mp4';
+import myVideo2 from '../video/TacoParty-Desktop-15sec-opt.mp4';
 
 
 const Detail = () => {
@@ -39,7 +40,18 @@ const Detail = () => {
             <source src={myVideo} type="video/mp4" />
         </video>
 
+        <TacoParty />
+        <TacoParty />
 
+        <div className='s4_p2'>
+            <p>Website Design</p>
+            <p className='h'>The current website is the second iteration that we've designed and developed for Taco Party. For this update we were tasked with delivering a site that was easily updatable by their internal team, allowed for secure online ordering, housed a menu that gets projected in their physical space, and presented a few easter eggs like animations and playlists.</p>
+        </div>
+
+
+        <video width="800" autoPlay loop muted className='video'>
+            <source src={myVideo2} type="video/mp4" />
+        </video>
 
     </div>
      </>);
