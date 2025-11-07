@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hi{
+color: black;
+font-size: 130px;
+}
+
+.hero_sub{
+    width: 100%;
+    background-image: url(../img/TP-Hero.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub_s2{
+    width: 80%;
+    padding: 0 10%;
+    background-image: url(../img/360_F_450279898_UnWEYXQNYnlZtTsgFEPTYoviM6M1ip8G.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.d1_s2_p2{
+width: 100%;
+padding: 3% 0%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 16px;
+font-weight: bold;
+}
+
+.taco_h{
+    padding: 2% 0;
+    font-size: 120px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cntnt_s2_p2{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 140%;
+}
+
+.cntnall1{
+    width: 45%;
+    padding-top: 6%;
+    font-weight: 100;
+}

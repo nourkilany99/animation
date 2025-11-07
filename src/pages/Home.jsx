@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import "./Home.css";
 import Nav from "../components/Nav.jsx";
 import hero_img from "../img/gemenini_hero.png";
@@ -103,9 +103,13 @@ tl.to({}, { duration: 0.25 });
       <div className='div_hero'>
         <img className='heroimg' src={hero_img} alt='hero_img'/>
 
+    
+
         <div className='div_cntnt_hero'>
         <h1>Measure Twice,<br/>Cut once</h1>
         </div>
+
+      
       </div>
 
       </section>
@@ -121,67 +125,37 @@ tl.to({}, { duration: 0.25 });
         <div className="content">
           <div className="horizontal center">
             <div className="cards-container">
-              <link to="/Details"><div className="card center gradient-green scr1" >
+              <div className="card center gradient-green scr1" >
 
-                {/* <div className="div_hid">
-                  <img className="logo_cs" src={Case_img} alt="case_img" />
-                  <p className="cs_h">Case study</p>
-                </div> */}
-
-              </div></link>
-
-              <div className="card center gradient-green scr2" >
-                  {/* <div className="div_hid">
-                  <img className="logo_cs" src={Case_img} alt="case_img" />
-                  <p className="cs_h">Case study</p>
-                </div> */}
               </div>
 
+              <div className="card center gradient-green scr2" >
+                 
+              </div>
               <div className="card center gradient-green scr3">
-                  {/* <div className="div_hid">
-                  <img className="logo_cs" src={Case_img} alt="case_img" />
-                  <p className="cs_h">Case study</p>
-                </div> */}
+              
               </div>
 
               <div className="card center gradient-green scr4" >
-                  {/* <div className="div_hid">
-                  <img className="logo_cs" src={Case_img} alt="case_img" />
-                  <p className="cs_h">Case study</p>
-                </div> */}
+                 
               </div>
               <div className="card center gradient-green scr5" >
-                  {/* <div className="div_hid">
-                  <img className="logo_cs" src={Case_img} alt="case_img" />
-                  <p className="cs_h">Case study</p>
-                </div> */}
+                
               </div>
               <div className="card center gradient-green scr6" >
-                  {/* <div className="div_hid">
-                  <img className="logo_cs" src={Case_img} alt="case_img" />
-                  <p className="cs_h">Case study</p>
-                </div> */}
+                 
               </div>
 
               <div className="card center gradient-green scr7" >
-                  {/* <div className="div_hid">
-                  <img className="logo_cs" src={Case_img} alt="case_img" />
-                  <p className="cs_h">Case study</p>
-                </div> */}
+                
               </div>
 
               <div className="card center gradient-green scr8" >
-                  {/* <div className="div_hid">
-                  <img className="logo_cs" src={Case_img} alt="case_img" />
-                  <p className="cs_h">Case study</p>
-                </div> */}
+                 
               </div>
               
               <div className="card center gradient-green scr8" >
-                  {/* <div className="div_hid">
-                  <img className="logo_cs" src={Case_img} alt="case_img" />
-                  <p className="cs_h">Case study</p>
-                </div> */}
+                 
               </div>
               
             </div>
